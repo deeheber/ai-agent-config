@@ -1,0 +1,18 @@
+{
+  "aws-iac-mcp-server": {
+    "type": "stdio",
+    "command": "uvx",
+    "args": ["awslabs.aws-iac-mcp-server@latest"],
+    "env": {
+      "AWS_PROFILE": "default"
+    }
+  },
+  "aws-mcp": {
+    "type": "stdio",
+    "command": "uvx",
+    "args": [
+      "mcp-proxy-for-aws==1.6.3",
+      "https://aws-mcp.us-east-1.api.aws/mcp"
+    ]
+  }
+}
