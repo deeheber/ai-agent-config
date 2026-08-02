@@ -63,7 +63,7 @@ the closing summary.
 **Nothing to cut is a valid result.** Say so in one line and stop.
 
 **Hands off:** no logic changes, no test changes, no new comments, no rewording that
-shifts meaning, nothing outside scope. In plan mode, say edits are blocked and stop
+shifts meaning, nothing outside scope. If edits are blocked, say so and stop
 rather than degrading into a suggestion list.
 
 Do not run `gh pr edit`, `gh pr comment`, `gh api` with a write method,

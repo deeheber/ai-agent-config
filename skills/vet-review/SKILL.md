@@ -1,10 +1,10 @@
 ---
 name: vet-review
 description: >
-  Critically reviews the findings from /review or /code-review for false
-  positives, missed issues, and noise, validating every finding against the
-  actual code rather than trusting the reported verdict. Use when a review
-  has produced findings and you want them challenged before acting on them.
+  Critically reviews code-review findings for false positives, missed
+  issues, and noise, validating every finding against the actual code
+  rather than trusting the reported verdict. Use when a review has produced
+  findings and you want them challenged before acting on them.
 disable-model-invocation: true
 ---
 
@@ -14,7 +14,7 @@ A second pass over review findings before you act on them.
 
 ## Instructions
 
-Critically review the current code-review result (findings from /review, /code-review, or similar). Do not edit the code or the review — return recommendations only, so they can be relayed to whoever owns it.
+Critically review the current code-review result (findings from a code-review command or similar). Do not edit the code or the review — return recommendations only, so they can be relayed to whoever owns it.
 
 Check, validating every finding with tools (read the file, reproduce the failure scenario — never take the description at face value):
 1. Is each finding actually correct?
