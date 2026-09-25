@@ -11,7 +11,7 @@
     "type": "stdio",
     "command": "uvx",
     "args": [
-      "mcp-proxy-for-aws==1.6.4",
+      "mcp-proxy-for-aws==1.7.0",
       "https://aws-mcp.us-east-1.api.aws/mcp"
     ],
     "env": {
