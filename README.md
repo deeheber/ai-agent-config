@@ -9,6 +9,7 @@ Configs for AI agents - using as a backup, and sharing in case it's helpful to s
   - `deslop` - cut over-explained, AI-sounding prose from comments, docs, PR bodies, and drafts
   - `vet-plan` - second pass over a plan before acting on it: correctness, problem fit, over-engineering
   - `vet-review` - second pass over code review findings: verify each one against the actual code before acting
+  - `vet-tests` - review and fix testing theater, keeping tests focused on our business logic
 - `mcp.json` - MCP server config
 
 ## Usage
