@@ -1,21 +1,12 @@
 {
-  "aws-iac-mcp-server": {
-    "type": "stdio",
-    "command": "uvx",
-    "args": ["awslabs.aws-iac-mcp-server@latest"],
-    "env": {
-      "AWS_PROFILE": "default"
-    }
-  },
   "aws-mcp": {
-    "type": "stdio",
     "command": "uvx",
     "args": [
-      "mcp-proxy-for-aws==1.7.0",
+      "mcp-proxy-for-aws-cli@latest",
       "https://aws-mcp.us-east-1.api.aws/mcp"
     ],
     "env": {
-      "AWS_MCP_PROXY_PROFILES": "prod-readonly dev staging"
+      "AWS_MCP_PROXY_PROFILES": "dev staging prod-readonly"
     }
   }
 }
