@@ -8,5 +8,12 @@
     "env": {
       "AWS_MCP_PROXY_PROFILES": "dev staging prod-readonly"
     }
+  },
+  "aws-iac-mcp-server": {
+    "command": "uvx",
+    "args": ["awslabs.aws-iac-mcp-server@latest"],
+    "env": {
+      "AWS_PROFILE": "default"
+    }
   }
 }
